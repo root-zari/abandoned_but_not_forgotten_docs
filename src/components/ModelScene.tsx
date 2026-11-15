@@ -3,7 +3,7 @@ import type { MutableRefObject } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Environment, Html, Lightformer, OrbitControls, PerformanceMonitor, useGLTF, useProgress } from '@react-three/drei';
 import { ACESFilmicToneMapping, Box3, Spherical, Vector3, type Camera, type Mesh, type PerspectiveCamera } from 'three';
-import type { ModelHotspot, ViewerApi } from './types';
+import type { ModelHotspot, ViewerApi } from './type';
 import { Backdrop, LOOKS, SUN, type Setting } from './Backdrop';
 
 // The 3D part of the viewer. It is loaded lazily (see ModelViewer.tsx) so three.js,

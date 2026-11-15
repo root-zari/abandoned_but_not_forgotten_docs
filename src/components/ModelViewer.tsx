@@ -2,7 +2,7 @@
 
 import { Component, Suspense, lazy, useCallback, useEffect, useId, useRef, useState } from 'react';
 import type { KeyboardEvent, ReactNode } from 'react';
-import type { ModelHotspot, ModelStatus, ViewerApi } from './types';
+import type { ModelHotspot, ModelStatus, ViewerApi } from './type';
 import type { Setting } from './Backdrop';
 import './ModelViewer.css';
 
