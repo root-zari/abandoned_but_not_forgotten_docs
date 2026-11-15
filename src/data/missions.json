@@ -120,9 +120,9 @@
         "High-efficiency solar and thermal battery management",
         "Autonomous navigation for tele-operated surface scouting"
       ],
-      "theme": "engineering"
+      "theme": "exploration"
     },
-    "questionTheme": "engineering",
+    "questionTheme": "exploration",
     "sources": [
       {
         "id": "nasa-nssdc-lrv",
