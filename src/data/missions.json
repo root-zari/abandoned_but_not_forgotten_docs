@@ -1,3 +1,4 @@
+
 [
   {
     "id": "opportunity",
@@ -5,6 +6,7 @@
     "location": "Mars (Meridiani Planum)",
     "date": "2004-01-24",
     "goal": "Search for geological evidence of ancient liquid water and assess past Martian habitability.",
+    "modelPath": "/models/opportunity.glb",
     "payload": [
       "Panoramic Camera (Pancam)",
       "Microscopic Imager",
@@ -12,7 +14,7 @@
       "Mössbauer Spectrometer",
       "Miniature Thermal Emission Spectrometer (Mini-TES)"
     ],
-    "story": "Landed on Mars in 2004 for a planned 90-day mission, Opportunity explored the Red Planet for over 15 years, traveling 28 miles. It discovered hematite blueberries and gypsum veins—conclusive proof that liquid water once flowed across Mars surface. A planet-wide dust storm in 2018 cut off its solar power, leaving the silent geologist on Meridiani Planum.",
+    "story": "Landed on Mars in 2004 for a planned 90-day mission, Opportunity explored the Red Planet for over 15 years, traveling approximately 28 miles. It discovered hematite-rich spherules and gypsum veins, providing strong geological evidence that liquid water once existed on Mars. A planet-wide dust storm in 2018 reduced its solar power, and NASA declared the mission complete in February 2019.",
     "status": {
       "value": "inactive",
       "checkedOn": "2026-11-15"
@@ -21,24 +23,24 @@
     "verifiedBy": "Zarnish (Content & Research Lead)",
     "evidence": [
       {
-        "text": "Opportunity discovered hematite blueberries and gypsum veins, proving liquid water was long-standing on ancient Mars.",
+        "text": "Opportunity discovered hematite-rich spherules and gypsum veins, providing geological evidence of past liquid water on Mars.",
         "label": "confirmed",
-        "sourceId": "nasa-opportunity-jpl"
+        "sourceId": "nasa-opportunity-science"
       },
       {
-        "text": "Meridiani Planum once featured a mild, wet surface environment suitable for potential ancient microbial life.",
+        "text": "Meridiani Planum once experienced aqueous environmental conditions that may have been suitable for ancient microbial life.",
         "label": "interpretation",
-        "sourceId": "nasa-opportunity-jpl"
+        "sourceId": "nasa-opportunity-science"
       },
       {
-        "text": "Whether any ancient Martian watery environment actually harbored microscopic life or preserved organic biosignatures.",
+        "text": "Whether any ancient Martian watery environment actually harbored microscopic life or preserved organic biosignatures remains unknown.",
         "label": "unknown",
-        "sourceId": "nasa-opportunity-jpl"
+        "sourceId": "nasa-opportunity-science"
       }
     ],
-    "legacy": "Accrued 45.16 km (28.06 miles) of driving, setting the off-Earth distance record that held until 2026. Proved long-standing liquid water existed on Mars.",
+    "legacy": "Accrued 45.16 km (28.06 miles) of driving, setting an off-Earth distance record. Revealed strong geological evidence that liquid water once existed on Mars.",
     "openQuestion": {
-      "prompt": "Opportunity proved Mars once had liquid water. What should a future rover search for next?",
+      "prompt": "Opportunity revealed that Mars once had liquid water. What should a future rover search for next?",
       "choices": [
         "Preserved organic biosignatures of ancient microbial life",
         "How the Martian atmosphere and surface water disappeared over time",
@@ -52,13 +54,13 @@
         "id": "nasa-opportunity-jpl",
         "title": "NASA Record-Setting Opportunity Rover Mission Comes to an End",
         "publisher": "NASA Jet Propulsion Laboratory (JPL)",
-        "url": "www.nasa.gov/press-release/nasa-s-record-setting-opportunity-rover-mission-comes-to-an-end"
+        "url": "https://www.nasa.gov/press-release/nasa-s-record-setting-opportunity-rover-mission-comes-to-an-end"
       },
       {
         "id": "nasa-opportunity-science",
         "title": "Mars Exploration Rovers Science Highlights",
         "publisher": "NASA Science Planetary Division",
-        "url": "science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/"
+        "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/"
       }
     ],
     "credits": [
@@ -66,13 +68,13 @@
         "asset": "3D Model of MER Opportunity Rover",
         "source": "NASA VTAD / JPL-Caltech",
         "license": "NASA Public Domain",
-        "url": "solarsystem.nasa.gov/resources/2382/opportunity-rover-3d-model/"
+        "url": "https://solarsystem.nasa.gov/resources/2382/opportunity-rover-3d-model/"
       },
       {
         "asset": "Pancam and Microscopic Imagery",
         "source": "NASA / JPL-Caltech / Cornell / ASU",
         "license": "NASA Public Domain",
-        "url": "mars.nasa.gov/mer/gallery/all/opportunity.html"
+        "url": "https://mars.nasa.gov/mer/gallery/all/opportunity.html"
       }
     ]
   },
@@ -82,13 +84,14 @@
     "location": "Moon (Hadley Rille / Descartes / Taurus-Littrow)",
     "date": "1971-07-30",
     "goal": "Provide mobility for Apollo astronauts on the lunar surface to extend exploration range and sample collection.",
+    "modelPath": "/models/lrv.glb",
     "payload": [
       "Lunar Communications Relay Unit (LCRU)",
       "High-Gain Antenna",
       "Ground-Controlled Television Assembly (GCTA)",
       "Lunar Traverse Gravimeter"
     ],
-    "story": "Deployed during Apollo 15, 16, and 17, the Moon Buggy allowed astronauts to travel tens of kilometers across craters and highlands. Traversing 36 km total, Apollo 17 set the lunar speed record of 11.2 mph. The three rovers remain parked on the Moon as historic monuments to human exploration.",
+    "story": "Deployed during Apollo 15, 16, and 17, the Moon Buggy allowed astronauts to travel across lunar craters and highlands. The three missions covered approximately 90.5 km in total, with Apollo 17 setting the lunar speed record of approximately 11.2 mph. The three rovers remain on the Moon as historic reminders of human exploration.",
     "status": {
       "value": "inactive",
       "checkedOn": "2026-11-15"
@@ -97,22 +100,22 @@
     "verifiedBy": "Zarnish (Content & Research Lead)",
     "evidence": [
       {
-        "text": "Apollo LRVs extended astronaut exploration range up to 7.6 km from the Lunar Module, enabling collection of key highland rock samples.",
+        "text": "Apollo Lunar Roving Vehicles extended astronaut exploration range and enabled the collection of geological samples across the lunar surface.",
         "label": "confirmed",
         "sourceId": "nasa-nssdc-lrv"
       },
       {
-        "text": "Mobility across varied lunar terrain significantly increased scientific yield compared to foot-only lunar traverses.",
+        "text": "Mobility across varied lunar terrain significantly increased scientific exploration opportunities compared with foot-only lunar traverses.",
         "label": "interpretation",
         "sourceId": "nasa-nssdc-lrv"
       },
       {
-        "text": "How decades of extreme lunar temperature swings, solar radiation, and micrometeorite impacts affected the rover structural alloys.",
+        "text": "How decades of extreme lunar temperature swings, solar radiation, and micrometeorite impacts affected the rovers' structural materials.",
         "label": "unknown",
         "sourceId": "nasa-nssdc-lrv"
       }
     ],
-    "legacy": "Demonstrated successful off-Earth manned mobility, logging 90.5 km total across three Apollo missions.",
+    "legacy": "Demonstrated successful crewed mobility beyond Earth, covering approximately 90.5 km across three Apollo missions.",
     "openQuestion": {
       "prompt": "The LRVs sit silently on the Moon. What key lesson should future lunar rovers take from their design?",
       "choices": [
@@ -128,27 +131,27 @@
         "id": "nasa-nssdc-lrv",
         "title": "Apollo 15 Lunar Module / LRV Record (NSSDC ID: 1971-063C)",
         "publisher": "NASA National Space Science Data Center",
-        "url": "nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=1971-063C"
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=1971-063C"
       },
       {
         "id": "nasa-marshall-lrv",
         "title": "Apollo Lunar Roving Vehicle Historical Archive",
         "publisher": "NASA Marshall Space Flight Center",
-        "url": "www.nasa.gov/centers/marshall/history/lrv.html"
+        "url": "https://www.nasa.gov/centers/marshall/history/lrv.html"
       }
     ],
     "credits": [
       {
         "asset": "3D Model of Lunar Roving Vehicle",
-        "source": "NASA Marshall Space Flight Center / NASA 3D Resources",
-        "license": "NASA Public Domain",
-        "url": "nasa3d.arc.nasa.gov/detail/lunarlanderv2"
+        "source": "UA VEYLORA Project Team",
+        "license": "Original project-team geometry; not a NASA model.",
+        "url": "https://github.com/sunailailyas908-debug/ABANDONED_BUT_NOT_FORGOTTEN"
       },
       {
         "asset": "Apollo Surface Photography",
         "source": "NASA Johnson Space Center",
         "license": "NASA Public Domain",
-        "url": "www.nasa.gov/multimedia/imagegallery/index.html"
+        "url": "https://www.nasa.gov/multimedia/imagegallery/index.html"
       }
     ]
   },
@@ -158,12 +161,13 @@
     "location": "Mars (Jezero Crater)",
     "date": "2021-02-18",
     "goal": "Demonstrate powered, controlled flight in the extremely thin Martian atmosphere.",
+    "modelPath": "/models/ingenuity.glb",
     "payload": [
       "High-Resolution Color Camera (RTE)",
       "Black-and-White Navigation Camera (NAVCAM)",
       "Solar Array and Lithium-Ion Battery Pack"
     ],
-    "story": "Arriving on Mars in 2021, Ingenuity achieved the first powered flight on another world—a historic Wright Brothers moment. Designed for a 30-day demo of just 5 flights, it completed 72 flights over 3 years, serving as an aerial scout for Perseverance before rotor blade damage ended flight operations in January 2024.",
+    "story": "Arriving on Mars in 2021, Ingenuity achieved the first powered, controlled flight on another planet, marking a historic milestone in aviation. Originally designed for a 30-day demonstration involving five flights, it completed 72 flights over nearly three years, serving as an aerial scout for Perseverance before rotor blade damage ended flight operations in January 2024.",
     "status": {
       "value": "silent",
       "checkedOn": "2026-11-15"
@@ -172,22 +176,22 @@
     "verifiedBy": "Zarnish (Content & Research Lead)",
     "evidence": [
       {
-        "text": "Completed 72 successful powered flights covering 17.0 km at altitudes up to 24 meters in Mars thin atmosphere.",
+        "text": "Ingenuity completed 72 powered flights, covering approximately 17 km and reaching altitudes of up to 24 meters in the thin Martian atmosphere.",
         "label": "confirmed",
         "sourceId": "nasa-ingenuity-jpl"
       },
       {
-        "text": "Aerial scouting accelerates rover surface science by identifying safe driving pathways and high-priority geological targets.",
+        "text": "Aerial scouting can support rover exploration by identifying safer driving routes and scientifically interesting geological targets.",
         "label": "interpretation",
         "sourceId": "nasa-ingenuity-jpl"
       },
       {
-        "text": "How multi-rotor aerial vehicles will navigate intense Martian dust storms and carry heavy scientific instrument payloads.",
+        "text": "How future multi-rotor aerial vehicles will navigate Martian dust storms and carry heavier scientific instruments.",
         "label": "unknown",
         "sourceId": "nasa-ingenuity-jpl"
       }
     ],
-    "legacy": "Proved powered aerodynamic flight is possible on Mars, establishing a new dimension of aerial planetary exploration.",
+    "legacy": "Demonstrated that powered aerodynamic flight is possible on Mars, establishing a new dimension of aerial planetary exploration.",
     "openQuestion": {
       "prompt": "Ingenuity proved aerial exploration works on Mars. What capability should next-generation Mars helicopters possess?",
       "choices": [
@@ -203,13 +207,13 @@
         "id": "nasa-ingenuity-jpl",
         "title": "Ingenuity Mars Helicopter Mission Updates & Flight Log",
         "publisher": "NASA Jet Propulsion Laboratory (JPL)",
-        "url": "science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
       },
       {
         "id": "nasa-ingenuity-press",
-        "title": "NASAs Ingenuity Helicopter Logs Final Flight on Mars",
+        "title": "NASA's Ingenuity Helicopter Logs Final Flight on Mars",
         "publisher": "NASA Headquarters Press Release",
-        "url": "www.nasa.gov/press-release/after-3-years-on-mars-nasa-s-ingenuity-helicopter-mission-ends"
+        "url": "https://www.nasa.gov/press-release/after-3-years-on-mars-nasa-s-ingenuity-helicopter-mission-ends"
       }
     ],
     "credits": [
@@ -217,13 +221,13 @@
         "asset": "3D Model of Ingenuity Mars Helicopter",
         "source": "NASA/JPL-Caltech",
         "license": "NASA Public Domain",
-        "url": "mars.nasa.gov/resources/25042/ingenuity-3d-model/"
+        "url": "https://mars.nasa.gov/resources/25042/ingenuity-3d-model/"
       },
       {
         "asset": "WATSON and NAVCAM Flight Images",
         "source": "NASA/JPL-Caltech/MSSS",
         "license": "NASA Public Domain",
-        "url": "mars.nasa.gov/mars2020/multimedia/raw-images/"
+        "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/"
       }
     ]
   }
